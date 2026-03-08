@@ -464,14 +464,24 @@ body {
 
 /* Estilos para las imágenes */
 /* Control general de imágenes */
-.image-container {
-    width: 100%;
-    height: 600px; /* Ajusta esta altura según prefieras */
-    overflow: hidden;
-    border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0, 50, 100, 0.2);
-    margin: 20px 0;
-    background-color: #f0f7ff; /* Fondo por si la imagen no cubre todo */
+.image-container{
+    width:100%;
+    height:600px;
+    overflow:hidden;
+    border-radius:15px;
+    box-shadow:0 10px 30px rgba(0,50,100,0.2);
+    margin:20px 0;
+    background-color:#f0f7ff;
+
+    display:flex;
+    align-items:flex-end; /* pega la imagen abajo */
+    justify-content:center;
+}
+
+.therapy-image{
+    width:100%;
+    cursor:pointer;
+    transition:0.4s;
 }
 
 .therapy-image {
