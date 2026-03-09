@@ -23,9 +23,9 @@ body {
     height: 100%;
     pointer-events: none;
     z-index: 0;
-    opacity: 0.1;
+    opacity: 0.5;
     font-weight: 600;
-    color: #1e4a6d;
+    color: #359ef3;
     overflow: hidden;
 }
 
@@ -228,8 +228,8 @@ body {
 
 .support-badge {
     display: inline-block;
-    background: #4a90e2;
-    color: white;
+    background: #f4e803;
+    color: rgba(189, 38, 51, 0.473);
     font-size: 1rem;
     padding: 5px 15px;
     border-radius: 30px;
@@ -258,8 +258,23 @@ body {
     transform: translateY(-5px);
 }
 
-.package-card.highlight {
-    border: 3px solid #4a90e2;
+.package-card.highlight1 {
+    border: 3px solid #4caf4f;
+    transform: scale(1.02);
+}
+
+.package-card.highlight2 {
+    border: 3px solid #f26e60;
+    transform: scale(1.02);
+}
+
+.package-card.highlight3 {
+    border: 3px solid #6dbef5;
+    transform: scale(1.02);
+}
+
+.package-card.highlight4 {
+    border: 3px solid #cf83f0;
     transform: scale(1.02);
 }
 
@@ -267,12 +282,51 @@ body {
     transform: scale(1.05);
 }
 
-.badge {
+.badge1 {
     position: absolute;
     top: -12px;
     left: 50%;
     transform: translateX(-50%);
-    background: #4a90e2;
+    background: #4caf4f;
+    color: rgb(254, 253, 253);
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.badge2 {
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #f26e60;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.badge3 {
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #6dbef5;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.badge4 {
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #cf83f0;
     color: white;
     padding: 5px 20px;
     border-radius: 20px;
@@ -299,8 +353,8 @@ body {
     color: #7f8c8d;
 }
 
-.whatsapp-btn {
-    background: #25D366;
+.whatsapp-btn1 {
+    background: #4caf4f;
     color: white;
     border: none;
     padding: 15px 25px;
@@ -315,6 +369,58 @@ body {
     justify-content: center;
     gap: 10px;
 }
+
+.whatsapp-btn2 {
+    background: #f26e60;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.whatsapp-btn3 {
+    background: #6dbef5;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.whatsapp-btn4 {
+    background: #cf83f0;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
 
 .whatsapp-btn:hover {
     background: #128C7E;
